@@ -4,6 +4,6 @@ MPI is a widely used parallel programming library that uses message passing to c
 
 MPI was designed in the 1990s to be a standardized library among heterogeneous parallel hardware computers. Open MPI is one version.
 
-This Quick Start takes material from Chapter 1, Introduction to MPI by William Gropp in Parallel Programming Models, MIT Press. 2015. 
+This Quick Start takes material from Chapter 1, Introduction to MPI by William Gropp in Programming Models for Parallel Computing, MIT Press. 2015. 
 
 First, we will start with some MPI programming model concepts. Second, we will introduce some of the MPI functions.
