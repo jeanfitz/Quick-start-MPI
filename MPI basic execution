@@ -1,0 +1,8 @@
+We will illustrate basic MPI with several C programs. This is also easy to do under Fortran.
+The library call in your C program is #include "mpi.h" at the top of your C program.
+
+We will use Open MPI and use the mpicc "wrapper" compiler to compile C programs. This just means that the wrapper takes care of links to library so you don't have to do it.
+
+Executing MPI library compiled programs. One interesting fact is that you can run the executable in UNIX, with no regard to mpi. You usually use mpirun command. FOr example "mpirun -n 2 myprog " uses 2 processors to run executable myprog.
+
+
