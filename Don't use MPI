@@ -1,0 +1,3 @@
+Do you really need to use MPI? MPI has some overhead since it is a library. The other important issue is that for small programs the communication cost does not supersede the advantage in computing on number of processors.
+
+In this chapter, we present several short C programs to illustrate the overhead of MPI.
